@@ -1,1 +1,82 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import './assets/css/font-montserrat.css';
+@import './assets/css/font-roboto.css';
+@import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+
+body {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 1px;
+  // background-color: #f5f5f5;
+  // font-family: 'Roboto', sans-serif!important;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.outlet {
+  padding-top: 65px;
+  min-height: calc(100vh - 75px) !important;
+}
+
+* a,
+* button {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+input,
+select,
+textarea {
+  border: 2px solid #e1e1e1 !important;
+  outline: none !important;
+  box-shadow: none !important;
+  background-clip: padding-box !important;
+  color: #5f6063 !important;
+  padding: 10px 12px !important;
+  background-color: #fff;
+
+  &::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #80868b88 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    /* Firefox */
+  }
+
+  &:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #80868b88 !important;
+    font-family: 'Montserrat', sans-serif !important;
+  }
+
+  &::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #80868b88 !important;
+    font-family: 'Montserrat', sans-serif !important;
+  }
+}
+
+input:active,
+input:focus,
+input:hover,
+select:active,
+select:focus,
+select:hover,
+textarea:active,
+textarea:focus,
+textarea:hover {
+  border: 2px solid #3c4043 !important;
+}
+
+img::selection {
+  background-color: transparent !important;
+}
+
+* img {
+  user-drag: none !important;
+  user-select: none !important;
+  -moz-user-select: none !important;
+  -webkit-user-drag: none !important;
+  -webkit-user-select: none !important;
+  -ms-user-select: none !important;
+}
