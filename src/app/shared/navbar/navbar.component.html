@@ -1,1 +1,29 @@
-<p>navbar works!</p>
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+
+    <a class="navbar-brand" [routerLink]="'/'">
+      <img src="assets/images/wordmark-logo.png" alt="">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fa-solid fa-bars"></i></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="'/'" routerLinkActive="active-link" [routerLinkActiveOptions]="{ exact: true }" [ngClass]="{'active-link':router.url.includes('home')}">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="'/projects'" [ngClass]="{'active-link':router.url.includes('project')}">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="'/about'" [ngClass]="{'active-link':router.url.includes('about')}">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="'/contact-us'" [ngClass]="{'active-link':router.url.includes('contact')}">Contact us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

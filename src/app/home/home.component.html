@@ -1,1 +1,89 @@
-<p>home works!</p>
+<div class="container-fluid home">
+
+  <!-- LANDING SECTION -->
+  <main class="landing-section" [@fadeIn]>
+    <div class="container">
+      <div class="col-md-6">
+        <h1>Delivering <span>contemptoray</span> architecture, <br> focused on <span>design excellence</span></h1>
+        <button class="btn btn-cta">Get in touch</button>
+      </div>
+    </div>
+  </main>
+
+
+  <!-- STATS SECTION -->
+  <div class="stats-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-md-4" *ngFor="let stat of stats">
+          <div class="card">
+            <span class="d-block number">{{stat.number}} <sup><i class="fa-solid fa-plus"></i></sup></span>
+            <span class="d-block description">{{stat.description}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- SERVICES SECTION -->
+  <div class="services-section">
+    <div class="container">
+
+      <h2 class="section-title">Services</h2>
+      <div class="border-btm"></div>
+
+
+      <div class="row">
+        <div class="col-6 col-md-3" *ngFor="let service of services;">
+          <div class="card">
+            <h5>{{service.title}}</h5>
+            <p>{{service.description}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="projects-section">
+
+    <div class="container">
+
+      <h2 class="section-title">Projects</h2>
+      <div class="border-btm"></div>
+
+      <div class="row">
+        <div class="col-md-3" *ngFor="let project of projects;index as i">
+          <div class="card">
+            <div class="overlay"></div>
+            <img src="assets/images/default-project.png" alt="project">
+            <span>Residential house Komarok</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="get-in-touch-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 text-ms-center">
+          <img class="illustration" src="assets/images/creation_process.svg" alt="illustration">
+        </div>
+        <div class="col-md-6">
+
+          <h1 class="title">Why we are different from others</h1>
+          <p class="description">We focus on design excellence through responsible development and technological innovation.</p>
+          <p class="description">Our team is equipped with unique skillsets that allow the company to achieve success in a diverse range of commissions</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+</div>

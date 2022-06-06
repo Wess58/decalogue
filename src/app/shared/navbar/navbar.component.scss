@@ -1,0 +1,31 @@
+.navbar {
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.05);
+  height: 64px;
+  background-color: #fff;
+
+  .navbar-brand {
+    img{
+      width: auto;
+      height: 40px;
+      object-fit: contain;
+    }
+  }
+
+  .navbar-nav {
+    .nav-item {
+      .nav-link {
+        color: #5f6063;
+        margin: 0 10px;
+
+        &:hover {
+          color: #942F03;
+        }
+      }
+    }
+  }
+}
+
+.active-link {
+  color: #942F03!important;
+  font-weight: 600!important;
+}

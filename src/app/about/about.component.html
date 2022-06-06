@@ -1,1 +1,88 @@
-<p>about works!</p>
+<div class="container-fluid about" [@fadeIn]>
+
+  <div class="landing-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+          <h2>About Decalogue</h2>
+          <div class="border-btm"></div>
+
+          <div [innerHTML]="about.companyStory">
+          </div>
+
+        </div>
+
+        <div class="col-md-5 text-end text-ms-center">
+          <img class="illustration" src="assets/images/company.svg" alt="illustration">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- STATEMENTS SECTION -->
+  <div class="statements-section">
+    <div class="container">
+      <div class="row mb-ms-3">
+        <div class="col-md-6">
+          <h3 class="section-title">Mission</h3>
+          <div class="border-btm"></div>
+
+          <p [innerHTML]="about.mission"></p>
+        </div>
+      </div>
+
+      <div class="row justify-content-end">
+        <div class="col-md-5">
+          <h3 class="section-title">Vision</h3>
+          <div class="border-btm"></div>
+
+          <p [innerHTML]="about.vision"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- VALUES SECTION -->
+  <div class="values-section">
+    <div class="container">
+
+      <h3 class="section-title">Core values</h3>
+      <div class="border-btm"></div>
+
+      <div class="row">
+        <div class="col-md-4" *ngFor="let value of about.coreValues">
+          <div class="card">
+            <div class="image-holder">
+              <img [src]="value.imgUrl" [alt]="value.title">
+            </div>
+
+            <div class="content">
+              <h4>{{value.title}}</h4>
+              <p>{{value.description}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SERVICES SECTION -->
+  <div class="services-section">
+    <div class="container">
+
+      <h3 class="section-title">Services</h3>
+      <div class="border-btm"></div>
+
+
+      <div class="row">
+        <div class="col-6 col-md-3" *ngFor="let service of services;">
+          <div class="card">
+            <h5>{{service.title}}</h5>
+            <p>{{service.description}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

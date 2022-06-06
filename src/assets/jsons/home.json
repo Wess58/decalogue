@@ -1,0 +1,60 @@
+{
+  "stats": [{
+      "number": "130",
+      "description": "Projects completed"
+    },
+    {
+      "number": "20",
+      "description": "Ongoing projects"
+    },
+    {
+      "number": "300",
+      "description": "Implementation-ready designs"
+    }
+  ],
+  "services": [{
+      "title": "Architectural design",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+    },
+    {
+      "title": "Interior design",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+    },
+    {
+      "title": "Masterplanning development",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+    },
+    {
+      "title": "Urban planning",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+    },
+    {
+      "title": "Construction management",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+    },
+    {
+      "title": "Site supervision",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+    },
+    {
+      "title": "Contract administration",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+    },
+    {
+      "title": "Quality control",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+    },
+    {
+      "title": "Construction programming",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+    },
+    {
+      "title": "As-built drawings",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+    },
+    {
+      "title": "Feasibility study",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+    }
+  ]
+}

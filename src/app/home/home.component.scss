@@ -1,0 +1,216 @@
+.home {
+  padding: 0;
+
+  .section-title {
+    color: #942F03;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+
+  .border-btm {
+    height: 7px;
+    width: 100px;
+    background-color: #942F0399;
+    margin-bottom: 20px;
+  }
+
+  .landing-section {
+    // background-color: #e1e1e1;
+    background-image: linear-gradient(90deg, #942F0399 52%, transparent 52%), url("../../assets/images/bg-3.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+
+    .container {
+      height: 650px;
+      display: flex;
+      align-items: center;
+
+      h1 {
+        color: #f5f5f5;
+        font-size: 3rem;
+
+        span {
+          color: #fff;
+          font-weight: 600;
+        }
+      }
+
+      .btn-cta {
+        background-color: #942F03;
+        color: #fff;
+        font-size: 0.9rem;
+        font-weight: 600;
+        letter-spacing: 1px;
+        padding: 10px 30px;
+        border-radius: 2px;
+        margin: 20px 0;
+      }
+    }
+  }
+
+  .stats-section {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #fff 50%, #942F03 50%);
+
+    .card {
+      border: 1px solid #e1e1e1;
+      border-radius: 8px;
+      height: 130px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Roboto', sans-serif!important;
+
+      .number {
+        font-size: 2.4rem;
+        font-weight: 600;
+        color: #942F03;
+
+        sup {
+          font-size: 1rem;
+          position: relative;
+          top: -15px;
+          right: 5px;
+        }
+      }
+
+      .description {
+        font-weight: 600;
+        color: #80868b;
+        letter-spacing: 1px;
+      }
+    }
+  }
+
+  .projects-section {
+    padding: 5vh 0;
+
+    .card {
+      padding: 0;
+      border: none;
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+      margin-bottom: 20px;
+      transition: all 0.2s;
+
+      &:hover {
+        img {
+          filter: brightness(100%);
+          transform: scale(1.02);
+        }
+
+        span {
+          color: #fff;
+        }
+      }
+
+      .overlay {
+        background-image: linear-gradient(to top , #3c4043, transparent 50%);
+        height: 100%;
+        width: 100%;
+        z-index: 10;
+        position: absolute;
+      }
+
+      img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        filter: brightness(90%);
+        transition: all 0.2s;
+        border: 1px solid #f1f1f1;
+      }
+
+      span {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        font-size: 0.9rem;
+        z-index: 10;
+        color: #f1f1f1;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .get-in-touch-section {
+    padding: 10vh 0;
+    border-top: 1px solid #f1f1f1;
+    background-image: linear-gradient(to top, #f1f1f180 5%, #fff9), url("../../assets/images/dots.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+
+    .illustration {
+      width: 80%;
+      filter: drop-shadow(0 20px 10px #0004);
+    }
+
+    .title {
+      font-size: 4rem;
+      letter-spacing: 2px;
+      color: #942F03;
+      font-weight: 600;
+    }
+
+    .description {
+      color: #5f6063;
+      font-size: 1.1rem;
+    }
+  }
+}
+@media (max-width: 3000px) {}
+@media (max-width: 2000px) {}
+@media (max-width: 1700px) {}
+@media (max-width: 1500px) {}
+@media (max-width: 1390px) {}
+@media (max-width: 1290px) {}
+@media (max-width: 770px) {
+  .landing-section {
+    background-image: linear-gradient(90deg, #942F0399 100%, transparent), url("../../assets/images/bg-3.jpg")!important;
+  }
+
+  .stats-section {
+    padding: 5vh 0;
+    background-image: none!important;
+    background-color: #fff;
+
+    .row {
+      justify-content: center;
+    }
+
+    .card {
+      margin-bottom: 20px;
+    }
+  }
+
+  .get-in-touch-section{
+    padding: 5vh 0!important;
+
+    .illustration {
+      width: 70%!important;
+      position: relative;
+    }
+
+    .title {
+      font-size: 3rem!important;
+      margin-top: 20px;
+    }
+
+    .description {
+      font-size: 1.1rem;
+    }
+
+  }
+}
