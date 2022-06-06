@@ -1,0 +1,22 @@
+{
+  "companyStory": "<p>We are a consulting firm offering services in <strong>Architectural design</strong> and <strong>Project management</strong>. We focus on design excellence through responsible development and technological innovation. </p> <p>The firm was established in <strong>2012</strong> with the intent to provide complete and high industry-level design services or the full range of projects within the built environment, including Residential, Commercial and Institutional projects.</p>",
+  "mission": "To create sustainable built environments that enhance the quality of life",
+  "vision": "To expand our sphere of influence in creation of sustainable built environments globally",
+  "coreValues":[
+    {
+      "title":"Competency",
+      "description":"Lorem Ipsum is simply dummy text",
+      "imgUrl":"assets/images/competency.svg"
+    },
+    {
+      "title":"Sensitivity",
+      "description":"Lorem Ipsum is simply dummy text",
+      "imgUrl":"assets/images/sensitivity.svg"
+    },
+    {
+      "title":"Intergrity",
+      "description":"Lorem Ipsum is simply dummy text",
+      "imgUrl":"assets/images/intergrity.svg"
+    }
+  ]
+}
