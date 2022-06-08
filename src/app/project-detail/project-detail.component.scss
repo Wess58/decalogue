@@ -124,9 +124,17 @@
   }
 }
 @media (max-width: 770px) {
+
+  .order-ms-2{
+    order: 2;
+  }
+  .order-ms-1{
+    order: 1;
+  }
   .modal-body {
-    height: 50vh;
-    display: flex;
-    align-items: center;
+    position: relative;
+    flex: 1 1 auto;
+    padding: 1rem;
+    padding: 0;
   }
 }

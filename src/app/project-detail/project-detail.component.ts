@@ -37,6 +37,7 @@ export class ProjectDetailComponent implements OnInit {
 
   }
 
+
   getSelectedProject(index: any): void {
     // console.log(index);
     this.currentProjectIndex = index;

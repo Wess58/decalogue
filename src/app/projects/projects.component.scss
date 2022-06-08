@@ -1,8 +1,21 @@
 .projects{
-  padding: 10vh 0;
+  padding: 5vh 0;
 
   .container{
     // min-width: 80%;
+  }
+
+  .section-title {
+    color: #942F03;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+
+  .border-btm {
+    height: 7px;
+    width: 80px;
+    background-color: #942F0399;
+    margin-bottom: 20px;
   }
 
   .project-card {

@@ -2,6 +2,7 @@
   padding-top: 7vh;
   padding-bottom: 3vh;
   border-top: 1px solid #f9f9f9;
+}
 
   .logo {
     width: 100px;
@@ -23,6 +24,10 @@
         width: auto;
         margin-left: 5px;
         font-size: 0.8rem;
+      }
+
+      a{
+        text-decoration: underline;
       }
     }
   }
@@ -73,7 +78,7 @@
       color: #942F03;
     }
   }
-}
+
 @media (max-width: 3000px) {}
 @media (max-width: 2000px) {}
 @media (max-width: 1700px) {}

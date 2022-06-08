@@ -4,7 +4,7 @@
   background-color: #fff;
 
   .navbar-brand {
-    img{
+    img {
       width: auto;
       height: 40px;
       object-fit: contain;
@@ -23,9 +23,50 @@
       }
     }
   }
+
+  .navbar-toggler{
+    font-size: 1.5rem;
+    color: #3c4043;
+  }
 }
 
 .active-link {
   color: #942F03!important;
   font-weight: 600!important;
+}
+
+.drop-down-menu {
+  background-color: #fff;
+  position: fixed;
+  top: 64px;
+  right: 0;
+  left: 0;
+  box-shadow: 0 10px 24px 0 rgba(0,0,0,0.2);
+  height: 0;
+  transition: all 0.2s;
+
+  .nav-item {
+    border-bottom: 1px solid #f1f1f160;
+    margin: 0;
+
+    .nav-link {
+      color: #5f6063;
+      text-align: right;
+      padding: 10px 20px;
+      margin: 0 !important;
+    }
+  }
+}
+
+.show-menu {
+  height: 180px;
+  border-top: 1px solid #942F03;
+
+}
+@media (max-width: 770px) {
+  .active-link {
+    color: #fff!important;
+    font-weight: 600!important;
+    background-color: #942F03!important;
+  }
 }

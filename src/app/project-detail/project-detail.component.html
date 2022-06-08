@@ -1,4 +1,4 @@
-<div class="container-fluid project-detail" *ngIf="project" [@fadeIn]>
+<div class="container-fluid project-detail" [@fadeIn]>
 
   <div class="landing-section" [ngStyle]="{'background-image':'linear-gradient(135deg, #0009 52%, transparent), url(' + project.thumbnailUrl + ')'}">
     <div class="container">
@@ -16,7 +16,7 @@
 
 
   <!-- GALLERY SECTION -->
-  <div class="gallery-section">
+  <div class="gallery-section" *ngIf="project && project.galleryImages?.length" [@fadeIn]>
     <div class="container">
 
       <h3 class="section-title">Gallery</h3>
@@ -35,14 +35,14 @@
   <div class="navigate-projects-section">
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-6 col-md-4">
           <button class="btn btn-previous" [disabled]="currentProjectIndex === 0" (click)="getSelectedProject(currentProjectIndex - 1)"> <span class="me-1"><i class="fa-solid fa-arrow-left"></i></span> Previous <span class="hide-sm">project</span>
           </button>
         </div>
-        <div class="col-md-4 text-center">
+        <div class="col-md-4 text-center order-ms-2">
           <button class="btn btn-all" [routerLink]="'/projects'">View all projects</button>
         </div>
-        <div class="col-md-4 text-end">
+        <div class="col-6 col-md-4 text-end order-ms-1">
           <button class="btn btn-next" [disabled]="currentProjectIndex === projects.length - 1" (click)="getSelectedProject(currentProjectIndex + 1)">Next <span class="hide-sm">project</span> <span class="ms-1"><i class="fa-solid fa-arrow-right"></i></span></button>
         </div>
       </div>
@@ -55,10 +55,10 @@
 
 <!-- Modal -->
 <div class="modal fade" id="photoModal" tabindex="-1" aria-labelledby="photoModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-xl">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-body">
-        <div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel">
+        <div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel" data-touch="true">
           <div class="carousel-inner">
             <div class="carousel-item" [ngClass]="{'active':currentImageIndex === i}" *ngFor="let image of project.galleryImages;index as i; first as isFirst" data-interval="4000">
               <img [src]="image.imgUrl" class="d-block w-100" alt="photo">

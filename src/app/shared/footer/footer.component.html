@@ -1,6 +1,6 @@
-<div class="footer">
+<div class="footer" [ngClass]="{'pt-0':router.url.includes('contact')}">
   <div class="container">
-    <div class="row">
+    <div class="row" [hidden]="router.url.includes('contact')">
       <div class="col-md-6">
         <div class="d-flex">
           <img class="logo" src="assets/images/logo.png" alt="">
@@ -30,7 +30,7 @@
       </div>
     </div>
 
-    <div class="text-center border-top pt-4 mt-5">
+    <div class="text-center pt-4" [ngClass]="router.url.includes('contact') ? 'mt-0': 'mt-5 border-top'">
       <p class="copyright-text">Copyright © {{year}} · <span>Decalogue International Ltd</span></p>
     </div>
   </div>

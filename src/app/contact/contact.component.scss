@@ -1,0 +1,30 @@
+.contact{
+  padding-top: 10vh;
+
+  h2{
+    font-weight: 600;
+    color: #942F03;
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+
+  .illustration{
+    width: 100%;
+    filter: drop-shadow(0 5px 5px #942F0333);
+
+  }
+}
+
+@media (max-width: 770px) {
+  .illustration{
+    width: 80%!important;
+    margin-bottom: 20px;
+
+  }
+
+  h2{
+    font-size: 2.2rem!important;
+    text-align: center;
+  }
+
+}

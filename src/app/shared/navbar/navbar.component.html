@@ -2,11 +2,13 @@
   <div class="container">
 
     <a class="navbar-brand" [routerLink]="'/'">
-      <img src="assets/images/wordmark-logo.png" alt="">
+      <img src="assets/images/wordmark-logo.png" alt="decalogue logo">
     </a>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span><i class="fa-solid fa-bars"></i></span>
+    <button class="navbar-toggler" type="button" (click)="toggleMenu()" aria-expanded="false" aria-label="Toggle navigation">
+      <span *ngIf="!showMenu"><i class="fa-solid fa-bars"></i></span>
+      <span *ngIf="showMenu"><i class="fa-solid fa-times"></i></span>
+
     </button>
 
     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
@@ -26,4 +28,22 @@
       </ul>
     </div>
   </div>
+
+  <div class="drop-down-menu" [ngClass]="{'show-menu':showMenu}" (click)="toggleMenu()">
+    <ul class="navbar-nav" *ngIf="showMenu" [@fadeIn]>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="'/'" routerLinkActive="active-link" [routerLinkActiveOptions]="{ exact: true }" [ngClass]="{'active-link':router.url.includes('home')}">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="'/projects'" [ngClass]="{'active-link':router.url.includes('project')}">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="'/about'" [ngClass]="{'active-link':router.url.includes('about')}">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="'/contact-us'" [ngClass]="{'active-link':router.url.includes('contact')}">Contact us</a>
+      </li>
+    </ul>
+  </div>
+
 </nav>

@@ -1,5 +1,9 @@
 <div class="container-fluid projects" *ngIf="projects.length" [@fadeIn]>
   <div class="container">
+
+    <h3 class="section-title">Projects</h3>
+    <div class="border-btm"></div>
+
     <div class="row">
       <div class="col-6 col-md-3" *ngFor="let project of projects;index as i">
         <div class="card project-card" [routerLink]="['/project',i,project.title.toLowerCase().split(' ').join('-')]">
