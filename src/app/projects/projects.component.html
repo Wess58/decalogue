@@ -1,10 +1,10 @@
-<div class="container-fluid projects">
+<div class="container-fluid projects" *ngIf="projects.length" [@fadeIn]>
   <div class="container">
     <div class="row">
       <div class="col-6 col-md-3" *ngFor="let project of projects;index as i">
         <div class="card project-card" [routerLink]="['/project',i,project.title.toLowerCase().split(' ').join('-')]">
           <div class="overlay"></div>
-          <img [src]="project.thumbnailUrl" onError="this.src='assets/images/default-project.png'" alt="project" loading="lazy">
+          <img [src]="project.thumbnailUrl" onError="this.src='assets/images/default-project.png'" alt="project">
           <span>{{project.title}}</span>
         </div>
       </div>

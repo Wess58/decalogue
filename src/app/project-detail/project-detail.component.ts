@@ -21,21 +21,37 @@ import projects from "../../assets/jsons/projects.json";
 export class ProjectDetailComponent implements OnInit {
   projects = projects;
   project: any = {};
-  currentIndexImage = 0;
+  currentImageIndex = 0;
+  currentProjectIndex = 0;
 
   constructor(
-    private activatedRoute: ActivatedRoute
+    private activatedRoute: ActivatedRoute,
+    private router: Router
   ) { }
 
   ngOnInit(): void {
-    const currentIndex = this.activatedRoute.snapshot.params['index'];
-    this.getSelectedProject(currentIndex);
+    window.scroll(0, 0);
+
+    this.currentProjectIndex = +this.activatedRoute.snapshot.params['index'];
+    this.project = this.projects[this.currentProjectIndex];
+
   }
 
   getSelectedProject(index: any): void {
     // console.log(index);
+    this.currentProjectIndex = index;
 
-    this.project = this.projects[index];
+    if (this.currentProjectIndex >= 0 || this.currentProjectIndex === this.projects.length - 1) {
+
+      this.project = {};
+
+      setTimeout(() => {
+        this.project = this.projects[this.currentProjectIndex];
+        this.router.navigate(['/project', this.currentProjectIndex, this.project.title.toLowerCase().split(' ').join('-')]);
+
+        window.scroll(0, 0);
+      }, 100);
+    }
   }
 
 }

@@ -70,6 +70,22 @@
       }
     }
   }
+
+  .navigate-projects-section {
+    padding: 5vh 0;
+    background-color: #f9f9f9;
+
+    .btn {
+      padding: 10px 20px;
+      font-size: 0.9rem;
+      letter-spacing: 1px;
+      font-weight: 600;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
 }
 
 .modal {
@@ -101,7 +117,7 @@
       border-radius: 8px;
     }
 
-    p{
+    p {
       margin-top: 20px;
       color: #f1f1f1;
     }
