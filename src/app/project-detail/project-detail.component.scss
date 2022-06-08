@@ -56,7 +56,8 @@
       border: 2px solid #f1f1f1;
       border-radius: 8px;
       overflow: hidden;
-      transition: all 0.2s;
+      transition: all .2s;
+      border-radius: 4px;
       cursor: pointer;
 
       &:hover {

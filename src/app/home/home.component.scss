@@ -94,17 +94,22 @@
 
     .card {
       padding: 0;
-      border: none;
       position: relative;
-      overflow: hidden;
+      overflow-x: hidden;
       cursor: pointer;
       margin-bottom: 20px;
-      transition: all 0.2s;
+      transition: all .2s;
+      border: 2px solid #f1f1f1;
+      border-radius: 4px;
+
+
 
       &:hover {
+        border: 2px solid #942F03;
+
         img {
-          filter: brightness(100%);
-          transform: scale(1.02);
+          // filter: brightness(100%);
+          // transform: scale(1.02);
         }
 
         span {
