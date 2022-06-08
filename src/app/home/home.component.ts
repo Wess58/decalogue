@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { style, animate, transition, trigger } from '@angular/animations';
 
 import home from "../../assets/jsons/home.json";
+import projects from "../../assets/jsons/projects.json";
+
 
 @Component({
   selector: 'app-home',
@@ -20,11 +22,12 @@ import home from "../../assets/jsons/home.json";
 export class HomeComponent implements OnInit {
   stats = home.stats;
   services = home.services;
-  projects = Array(8).fill('');
+  projects = projects;
 
   constructor() { }
 
   ngOnInit(): void {
+    window.scroll(0,0);
 
 
 

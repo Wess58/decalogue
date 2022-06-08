@@ -29,9 +29,8 @@ const routes: Routes = [
   },
   {
     path: 'project/:index/:name',
-    component: HomeComponent
-  },
-
+    component: ProjectDetailComponent
+  }
 ];
 
 @NgModule({

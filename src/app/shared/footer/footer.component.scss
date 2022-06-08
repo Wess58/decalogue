@@ -83,12 +83,13 @@
 @media (max-width: 770px) {
   .d-flex{
     margin-bottom: 30px;
+    align-items: center;
     .logo {
       object-fit: contain;
     }
 
     .hero-text {
-      font-size: 1.2rem!important;
+      font-size: 1rem!important;
     }
   }
 

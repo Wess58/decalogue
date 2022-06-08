@@ -4,7 +4,7 @@
   <main class="landing-section" [@fadeIn]>
     <div class="container">
       <div class="col-md-6">
-        <h1>Delivering <span>contemptoray</span> architecture, <br> focused on <span>design excellence</span></h1>
+        <h1>Delivering <span>contemporary</span> architecture, <br> focused on <span>design excellence</span></h1>
         <button class="btn btn-cta">Get in touch</button>
       </div>
     </div>
@@ -54,11 +54,11 @@
       <div class="border-btm"></div>
 
       <div class="row">
-        <div class="col-md-3" *ngFor="let project of projects;index as i">
-          <div class="card">
+        <div class="col-6 col-md-3" *ngFor="let project of projects.slice(0,8);index as i">
+          <div class="card" [routerLink]="['/project',i,project.title.toLowerCase().split(' ').join('-')]">
             <div class="overlay"></div>
-            <img src="assets/images/default-project.png" alt="project">
-            <span>Residential house Komarok</span>
+            <img [src]="project.thumbnailUrl" alt="project" loading="lazy">
+            <span>{{project.title}}</span>
           </div>
         </div>
       </div>

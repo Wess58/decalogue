@@ -12,6 +12,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ProjectDetailComponent } from './project-detail/project-detail.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
+// import { LazyloadDirective } from './directives/lazyload.directive';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FooterComponent } from './shared/footer/footer.component';
     ProjectsComponent,
     ProjectDetailComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    // LazyloadDirective
   ],
   imports: [
     BrowserModule,

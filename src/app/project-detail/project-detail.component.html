@@ -1,1 +1,67 @@
-<p>project-detail works!</p>
+<div class="container-fluid project-detail" *ngIf="project" [@fadeIn]>
+
+  <div class="landing-section" [ngStyle]="{'background-image':'linear-gradient(135deg, #0009 52%, transparent), url(' + project.thumbnailUrl + ')'}">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <h3>{{project.title}}</h3>
+          <span class="status">Completed project</span>
+          <span class="d-block description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book.</span>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- GALLERY SECTION -->
+  <div class="gallery-section">
+    <div class="container">
+
+      <h3 class="section-title">Gallery</h3>
+      <div class="border-btm"></div>
+
+      <div class="row">
+        <div class="col-6 col-md-6" *ngFor="let image of project.galleryImages;index as i">
+          <div class="card" data-toggle="modal" data-target="#photoModal" (click)="currentIndexImage = i">
+            <img [src]="image.imgUrl" alt="photo">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="photoModal" tabindex="-1" aria-labelledby="photoModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-body">
+        {{currentIndexImage}}
+        <div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item" [ngClass]="{'active':currentIndexImage === i}" *ngFor="let image of project.galleryImages;index as i; first as isFirst" data-interval="4000">
+              <img [src]="image.imgUrl" class="d-block w-100" alt="photo">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+            <span class="navigation-icon"> <i class="fa-solid fa-circle-chevron-left"></i>
+            </span>
+          </button>
+          <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+            <span class="navigation-icon"> <i class="fa-solid fa-circle-chevron-right"></i>
+            </span>
+          </button>
+        </div>
+
+        <p class="d-none d-md-block text-center">Hover on the image to pause auto-navigation</p>
+
+
+      </div>
+    </div>
+  </div>
+</div>
