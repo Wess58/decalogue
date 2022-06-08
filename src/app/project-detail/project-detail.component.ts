@@ -35,6 +35,8 @@ export class ProjectDetailComponent implements OnInit {
     this.currentProjectIndex = +this.activatedRoute.snapshot.params['index'];
     this.project = this.projects[this.currentProjectIndex];
 
+    window.scroll(0, 0);
+
   }
 
 
