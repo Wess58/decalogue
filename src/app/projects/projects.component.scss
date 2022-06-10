@@ -1,7 +1,7 @@
-.projects{
+.projects {
   padding: 5vh 0;
 
-  .container{
+  .container {
     // min-width: 80%;
   }
 
@@ -15,7 +15,21 @@
     height: 7px;
     width: 80px;
     background-color: #942F0399;
-    margin-bottom: 20px;
+  }
+
+  .filters-section {
+    padding: 3vh 0;
+
+    .filter-item {
+      display: inline-block;
+      margin: 0 15px 10px 0;
+      color: #5f6063;
+      cursor: pointer;
+
+      &:hover {
+        color: #942F03;
+      }
+    }
   }
 
   .project-card {
@@ -24,15 +38,15 @@
     overflow: hidden;
     cursor: pointer;
     margin-bottom: 20px;
-    border: 1px solid #f1f1f1;
+    border: 2px solid #f1f1f1;
     border-radius: 4px;
-    transition: all 0.2s;
+    transition: all 0.3s;
 
     &:hover {
-      border: 1px solid #942F03;
+      border: 2px solid #942F03;
 
       img {
-        // filter: brightness(100%);
+        filter: brightness(100%);
         // transform: scale(1.02);
       }
 
@@ -68,5 +82,10 @@
       font-weight: 600;
     }
   }
+}
 
+.active-filter {
+  color: #942F03!important;
+  font-weight: 600;
+  border-bottom: 2px solid #942F03;
 }

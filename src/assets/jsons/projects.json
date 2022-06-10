@@ -1,16 +1,16 @@
 [{
-    "thumbnailUrl": "assets/images/projects/dagoreti-heights/1.jpg",
+    "thumbnailUrl": "assets/images/projects/dagoreti-heights/1.jpeg",
     "galleryImages": [{
-        "imgUrl": "assets/images/projects/dagoreti-heights/1.jpg"
+        "imgUrl": "assets/images/projects/dagoreti-heights/1.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/dagoreti-heights/2.jpg"
+        "imgUrl": "assets/images/projects/dagoreti-heights/2.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/dagoreti-heights/3.jpg"
+        "imgUrl": "assets/images/projects/dagoreti-heights/3.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/dagoreti-heights/4.jpg"
+        "imgUrl": "assets/images/projects/dagoreti-heights/4.jpeg"
       }
     ],
     "title": "Dagoretti Heights",
@@ -18,30 +18,30 @@
     "status": "",
     "description": "",
     "client": "",
-    "clientType": ""
+    "category": "apartments"
   },
   {
-    "thumbnailUrl": "assets/images/projects/fair-acres-karen/1.jpg",
+    "thumbnailUrl": "assets/images/projects/fair-acres-karen/1.jpeg",
     "galleryImages": [{
-        "imgUrl": "assets/images/projects/fair-acres-karen/1.jpg"
+        "imgUrl": "assets/images/projects/fair-acres-karen/1.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/fair-acres-karen/2.jpg"
+        "imgUrl": "assets/images/projects/fair-acres-karen/2.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/fair-acres-karen/3.jpg"
+        "imgUrl": "assets/images/projects/fair-acres-karen/3.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/fair-acres-karen/4.jpg"
+        "imgUrl": "assets/images/projects/fair-acres-karen/4.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/fair-acres-karen/5.jpg"
+        "imgUrl": "assets/images/projects/fair-acres-karen/5.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/fair-acres-karen/6.jpg"
+        "imgUrl": "assets/images/projects/fair-acres-karen/6.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/fair-acres-karen/7.jpg"
+        "imgUrl": "assets/images/projects/fair-acres-karen/7.jpeg"
       }
     ],
     "title": "Fair Acres Karen",
@@ -49,30 +49,30 @@
     "status": "",
     "description": "",
     "client": "",
-    "clientType": ""
+    "category": "residential"
   },
   {
-    "thumbnailUrl": "assets/images/projects/godowns-eastern-bypass-nesmac-towers/1.jpg",
+    "thumbnailUrl": "assets/images/projects/godowns-eastern-bypass-nesmac-towers/1.jpeg",
     "galleryImages": [{
-        "imgUrl": "assets/images/projects/godowns-eastern-bypass-nesmac-towers/1.jpg"
+        "imgUrl": "assets/images/projects/godowns-eastern-bypass-nesmac-towers/1.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/godowns-eastern-bypass-nesmac-towers/2.jpg"
+        "imgUrl": "assets/images/projects/godowns-eastern-bypass-nesmac-towers/2.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/godowns-eastern-bypass-nesmac-towers/3.jpg"
+        "imgUrl": "assets/images/projects/godowns-eastern-bypass-nesmac-towers/3.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/godowns-eastern-bypass-nesmac-towers/4.jpg"
+        "imgUrl": "assets/images/projects/godowns-eastern-bypass-nesmac-towers/4.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/godowns-eastern-bypass-nesmac-towers/5.jpg"
+        "imgUrl": "assets/images/projects/godowns-eastern-bypass-nesmac-towers/5.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/godowns-eastern-bypass-nesmac-towers/6.jpg"
+        "imgUrl": "assets/images/projects/godowns-eastern-bypass-nesmac-towers/6.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/godowns-eastern-bypass-nesmac-towers/7.jpg"
+        "imgUrl": "assets/images/projects/godowns-eastern-bypass-nesmac-towers/7.jpeg"
       }
     ],
     "title": "Godowns Eastern-Bypass NESMAC Towers",
@@ -80,27 +80,27 @@
     "status": "",
     "description": "",
     "client": "",
-    "clientType": ""
+    "category": "commercial"
   },
   {
-    "thumbnailUrl": "assets/images/projects/godowns-fresh-farm/1.jpg",
+    "thumbnailUrl": "assets/images/projects/godowns-fresh-farm/1.jpeg",
     "galleryImages": [{
-        "imgUrl": "assets/images/projects/godowns-fresh-farm/1.jpg"
+        "imgUrl": "assets/images/projects/godowns-fresh-farm/1.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/godowns-fresh-farm/2.jpg"
+        "imgUrl": "assets/images/projects/godowns-fresh-farm/2.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/godowns-fresh-farm/3.jpg"
+        "imgUrl": "assets/images/projects/godowns-fresh-farm/3.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/godowns-fresh-farm/4.jpg"
+        "imgUrl": "assets/images/projects/godowns-fresh-farm/4.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/godowns-fresh-farm/5.jpg"
+        "imgUrl": "assets/images/projects/godowns-fresh-farm/5.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/godowns-fresh-farm/6.jpg"
+        "imgUrl": "assets/images/projects/godowns-fresh-farm/6.jpeg"
       }
     ],
     "title": "Godowns Fresh Farm",
@@ -108,27 +108,27 @@
     "status": "",
     "description": "",
     "client": "",
-    "clientType": ""
+    "category": "commercial"
   },
   {
-    "thumbnailUrl": "assets/images/projects/goshen-chidrens-home/1.jpg",
+    "thumbnailUrl": "assets/images/projects/goshen-chidrens-home/1.jpeg",
     "galleryImages": [{
-        "imgUrl": "assets/images/projects/goshen-chidrens-home/1.jpg"
+        "imgUrl": "assets/images/projects/goshen-chidrens-home/1.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/goshen-chidrens-home/2.jpg"
+        "imgUrl": "assets/images/projects/goshen-chidrens-home/2.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/goshen-chidrens-home/3.jpg"
+        "imgUrl": "assets/images/projects/goshen-chidrens-home/3.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/goshen-chidrens-home/4.jpg"
+        "imgUrl": "assets/images/projects/goshen-chidrens-home/4.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/goshen-chidrens-home/5.jpg"
+        "imgUrl": "assets/images/projects/goshen-chidrens-home/5.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/goshen-chidrens-home/6.jpg"
+        "imgUrl": "assets/images/projects/goshen-chidrens-home/6.jpeg"
       }
     ],
     "title": "Goshen Chidren's Home",
@@ -136,70 +136,70 @@
     "status": "",
     "description": "",
     "client": "",
-    "clientType": ""
+    "category": "institution"
   },
   {
-    "thumbnailUrl": "assets/images/projects/insinkin-resort-kajiado/1.jpg",
+    "thumbnailUrl": "assets/images/projects/isinkin-resort-kajiado/1.jpeg",
     "galleryImages": [{
-        "imgUrl": "assets/images/projects/insinkin-resort-kajiado/1.jpg"
+        "imgUrl": "assets/images/projects/isinkin-resort-kajiado/1.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/insinkin-resort-kajiado/2.jpg"
+        "imgUrl": "assets/images/projects/isinkin-resort-kajiado/2.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/insinkin-resort-kajiado/3.jpg"
+        "imgUrl": "assets/images/projects/isinkin-resort-kajiado/3.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/insinkin-resort-kajiado/4.jpg"
+        "imgUrl": "assets/images/projects/isinkin-resort-kajiado/4.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/insinkin-resort-kajiado/5.jpg"
+        "imgUrl": "assets/images/projects/isinkin-resort-kajiado/5.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/insinkin-resort-kajiado/6.jpg"
+        "imgUrl": "assets/images/projects/isinkin-resort-kajiado/6.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/insinkin-resort-kajiado/7.jpg"
+        "imgUrl": "assets/images/projects/isinkin-resort-kajiado/7.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/insinkin-resort-kajiado/8.jpg"
+        "imgUrl": "assets/images/projects/isinkin-resort-kajiado/8.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/insinkin-resort-kajiado/9.jpg"
+        "imgUrl": "assets/images/projects/isinkin-resort-kajiado/9.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/insinkin-resort-kajiado/10.jpg"
+        "imgUrl": "assets/images/projects/isinkin-resort-kajiado/10.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/insinkin-resort-kajiado/11.jpg"
+        "imgUrl": "assets/images/projects/isinkin-resort-kajiado/11.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/insinkin-resort-kajiado/12.jpg"
+        "imgUrl": "assets/images/projects/isinkin-resort-kajiado/12.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/insinkin-resort-kajiado/13.jpg"
+        "imgUrl": "assets/images/projects/isinkin-resort-kajiado/13.jpeg"
       }
     ],
-    "title": "Insinkin Resort, Kajiado",
+    "title": "Isinkin Resort Kajiado",
     "year": "",
     "status": "",
     "description": "",
     "client": "",
-    "clientType": ""
+    "category": "commercial"
   },
   {
-    "thumbnailUrl": "assets/images/projects/kyuna-estate/1.jpg",
+    "thumbnailUrl": "assets/images/projects/kyuna-estate/1.jpeg",
     "galleryImages": [{
-        "imgUrl": "assets/images/projects/kyuna-estate/1.jpg"
+        "imgUrl": "assets/images/projects/kyuna-estate/1.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/kyuna-estate/2.jpg"
+        "imgUrl": "assets/images/projects/kyuna-estate/2.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/kyuna-estate/3.jpg"
+        "imgUrl": "assets/images/projects/kyuna-estate/3.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/kyuna-estate/4.jpg"
+        "imgUrl": "assets/images/projects/kyuna-estate/4.jpeg"
       }
     ],
     "title": "Kyuna Estate",
@@ -207,49 +207,49 @@
     "status": "",
     "description": "",
     "client": "",
-    "clientType": ""
+    "category": "residential"
   },
   {
-    "thumbnailUrl": "assets/images/projects/migaa-residential/1.jpg",
+    "thumbnailUrl": "assets/images/projects/migaa-residential/1.jpeg",
     "galleryImages": [{
-        "imgUrl": "assets/images/projects/migaa-residential/1.jpg"
+        "imgUrl": "assets/images/projects/migaa-residential/1.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/migaa-residential/2.jpg"
+        "imgUrl": "assets/images/projects/migaa-residential/2.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/migaa-residential/3.jpg"
+        "imgUrl": "assets/images/projects/migaa-residential/3.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/migaa-residential/4.jpg"
+        "imgUrl": "assets/images/projects/migaa-residential/4.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/migaa-residential/5.jpg"
+        "imgUrl": "assets/images/projects/migaa-residential/5.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/migaa-residential/6.jpg"
+        "imgUrl": "assets/images/projects/migaa-residential/6.jpeg"
       }
     ],
-    "title": "Migaa Residentials",
+    "title": "Migaa Residential",
     "year": "",
     "status": "",
     "description": "",
     "client": "",
-    "clientType": ""
+    "category": "residential"
   },
   {
-    "thumbnailUrl": "assets/images/projects/ngecha-girls-high/1.jpg",
+    "thumbnailUrl": "assets/images/projects/ngecha-girls-high/1.jpeg",
     "galleryImages": [{
-        "imgUrl": "assets/images/projects/ngecha-girls-high/1.jpg"
+        "imgUrl": "assets/images/projects/ngecha-girls-high/1.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/ngecha-girls-high/2.jpg"
+        "imgUrl": "assets/images/projects/ngecha-girls-high/2.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/ngecha-girls-high/3.jpg"
+        "imgUrl": "assets/images/projects/ngecha-girls-high/3.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/ngecha-girls-high/4.jpg"
+        "imgUrl": "assets/images/projects/ngecha-girls-high/4.jpeg"
       }
     ],
     "title": "Ngecha Girls High School",
@@ -257,46 +257,46 @@
     "status": "",
     "description": "",
     "client": "",
-    "clientType": ""
+    "category": "institution"
   },
   {
-    "thumbnailUrl": "assets/images/projects/residentials-off-kb-road/1.jpg",
+    "thumbnailUrl": "assets/images/projects/residentials-off-kb-road/1.jpeg",
     "galleryImages": [{
-        "imgUrl": "assets/images/projects/residentials-off-kb-road/1.jpg"
+        "imgUrl": "assets/images/projects/residentials-off-kb-road/1.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/residentials-off-kb-road/2.jpg"
+        "imgUrl": "assets/images/projects/residentials-off-kb-road/2.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/residentials-off-kb-road/3.jpg"
+        "imgUrl": "assets/images/projects/residentials-off-kb-road/3.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/residentials-off-kb-road/4.jpg"
+        "imgUrl": "assets/images/projects/residentials-off-kb-road/4.jpeg"
       }
     ],
-    "title": "Residentials, Kiambu Road",
+    "title": "Residential, Kiambu Road",
     "year": "",
     "status": "",
     "description": "",
     "client": "",
-    "clientType": ""
+    "category": "residential"
   },
   {
-    "thumbnailUrl": "assets/images/projects/river-park-four/1.jpg",
+    "thumbnailUrl": "assets/images/projects/river-park-four/1.jpeg",
     "galleryImages": [{
-        "imgUrl": "assets/images/projects/river-park-four/1.jpg"
+        "imgUrl": "assets/images/projects/river-park-four/1.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/river-park-four/2.jpg"
+        "imgUrl": "assets/images/projects/river-park-four/2.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/river-park-four/3.jpg"
+        "imgUrl": "assets/images/projects/river-park-four/3.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/river-park-four/4.jpg"
+        "imgUrl": "assets/images/projects/river-park-four/4.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/river-park-four/5.jpg"
+        "imgUrl": "assets/images/projects/river-park-four/5.jpeg"
       }
     ],
     "title": "River Park Four",
@@ -304,21 +304,21 @@
     "status": "",
     "description": "",
     "client": "",
-    "clientType": ""
+    "category": "residential"
   },
   {
-    "thumbnailUrl": "assets/images/projects/ruaraka-redwood-park/1.jpg",
+    "thumbnailUrl": "assets/images/projects/ruaraka-redwood-park/1.jpeg",
     "galleryImages": [{
-        "imgUrl": "assets/images/projects/ruaraka-redwood-park/1.jpg"
+        "imgUrl": "assets/images/projects/ruaraka-redwood-park/1.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/ruaraka-redwood-park/2.jpg"
+        "imgUrl": "assets/images/projects/ruaraka-redwood-park/2.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/ruaraka-redwood-park/3.jpg"
+        "imgUrl": "assets/images/projects/ruaraka-redwood-park/3.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/ruaraka-redwood-park/4.jpg"
+        "imgUrl": "assets/images/projects/ruaraka-redwood-park/4.jpeg"
       }
     ],
     "title": "Ruaraka Redwood Park",
@@ -326,24 +326,24 @@
     "status": "",
     "description": "",
     "client": "",
-    "clientType": ""
+    "category": "apartments"
   },
   {
-    "thumbnailUrl": "assets/images/projects/surgical-department/1.jpg",
+    "thumbnailUrl": "assets/images/projects/surgical-department/1.jpeg",
     "galleryImages": [{
-        "imgUrl": "assets/images/projects/surgical-department/1.jpg"
+        "imgUrl": "assets/images/projects/surgical-department/1.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/surgical-department/2.jpg"
+        "imgUrl": "assets/images/projects/surgical-department/2.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/surgical-department/3.jpg"
+        "imgUrl": "assets/images/projects/surgical-department/3.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/surgical-department/4.jpg"
+        "imgUrl": "assets/images/projects/surgical-department/4.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/surgical-department/5.jpg"
+        "imgUrl": "assets/images/projects/surgical-department/5.jpeg"
       }
     ],
     "title": "Surgical Department",
@@ -351,58 +351,58 @@
     "status": "",
     "description": "",
     "client": "",
-    "clientType": ""
+    "category": "hospital"
   },
   {
-    "thumbnailUrl": "assets/images/projects/tigoni-kiambu-residentials/1.jpg",
+    "thumbnailUrl": "assets/images/projects/tigoni-kiambu-residentials/1.jpeg",
     "galleryImages": [{
-        "imgUrl": "assets/images/projects/tigoni-kiambu-residentials/1.jpg"
+        "imgUrl": "assets/images/projects/tigoni-kiambu-residentials/1.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/tigoni-kiambu-residentials/2.jpg"
+        "imgUrl": "assets/images/projects/tigoni-kiambu-residentials/2.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/tigoni-kiambu-residentials/3.jpg"
+        "imgUrl": "assets/images/projects/tigoni-kiambu-residentials/3.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/tigoni-kiambu-residentials/4.jpg"
+        "imgUrl": "assets/images/projects/tigoni-kiambu-residentials/4.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/tigoni-kiambu-residentials/5.jpg"
+        "imgUrl": "assets/images/projects/tigoni-kiambu-residentials/5.jpeg"
       }
     ],
-    "title": "Tigoni Residentials",
+    "title": "Tigoni Residential",
     "year": "",
     "status": "",
     "description": "",
     "client": "",
-    "clientType": ""
+    "category": "residential"
   },
   {
-    "thumbnailUrl": "assets/images/projects/tigoni-mud/1.jpg",
+    "thumbnailUrl": "assets/images/projects/tigoni-mud/1.jpeg",
     "galleryImages": [{
-        "imgUrl": "assets/images/projects/tigoni-mud/1.jpg"
+        "imgUrl": "assets/images/projects/tigoni-mud/1.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/tigoni-mud/2.jpg"
+        "imgUrl": "assets/images/projects/tigoni-mud/2.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/tigoni-mud/3.jpg"
+        "imgUrl": "assets/images/projects/tigoni-mud/3.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/tigoni-mud/4.jpg"
+        "imgUrl": "assets/images/projects/tigoni-mud/4.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/tigoni-mud/5.jpg"
+        "imgUrl": "assets/images/projects/tigoni-mud/5.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/tigoni-mud/6.jpg"
+        "imgUrl": "assets/images/projects/tigoni-mud/6.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/tigoni-mud/7.jpg"
+        "imgUrl": "assets/images/projects/tigoni-mud/7.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/tigoni-mud/8.jpg"
+        "imgUrl": "assets/images/projects/tigoni-mud/8.jpeg"
       }
     ],
     "title": "Tigoni MUD",
@@ -410,21 +410,21 @@
     "status": "",
     "description": "",
     "client": "",
-    "clientType": ""
+    "category": "commercial"
   },
   {
-    "thumbnailUrl": "assets/images/projects/u-park-east-apartments/1.JPG",
+    "thumbnailUrl": "assets/images/projects/u-park-east-apartments/1.jpeg",
     "galleryImages": [{
-        "imgUrl": "assets/images/projects/u-park-east-apartments/1.JPG"
+        "imgUrl": "assets/images/projects/u-park-east-apartments/1.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/u-park-east-apartments/2.JPG"
+        "imgUrl": "assets/images/projects/u-park-east-apartments/2.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/u-park-east-apartments/3.JPG"
+        "imgUrl": "assets/images/projects/u-park-east-apartments/3.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/u-park-east-apartments/4.JPG"
+        "imgUrl": "assets/images/projects/u-park-east-apartments/4.jpeg"
       }
     ],
     "title": "U-Park East Apartments",
@@ -432,21 +432,21 @@
     "status": "",
     "description": "",
     "client": "",
-    "clientType": ""
+    "category": "apartments"
   },
   {
-    "thumbnailUrl": "assets/images/projects/vineyard-proposed-mud/1.jpg",
+    "thumbnailUrl": "assets/images/projects/vineyard-proposed-mud/1.jpeg",
     "galleryImages": [{
-        "imgUrl": "assets/images/projects/vineyard-proposed-mud/1.jpg"
+        "imgUrl": "assets/images/projects/vineyard-proposed-mud/1.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/vineyard-proposed-mud/2.jpg"
+        "imgUrl": "assets/images/projects/vineyard-proposed-mud/2.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/vineyard-proposed-mud/3.jpg"
+        "imgUrl": "assets/images/projects/vineyard-proposed-mud/3.jpeg"
       },
       {
-        "imgUrl": "assets/images/projects/vineyard-proposed-mud/4.jpg"
+        "imgUrl": "assets/images/projects/vineyard-proposed-mud/4.jpeg"
       }
     ],
     "title": "Vineyard proposed MUD",
@@ -454,6 +454,131 @@
     "status": "",
     "description": "",
     "client": "",
-    "clientType": ""
+    "category": "commercial"
+  },
+  {
+    "thumbnailUrl": "assets/images/projects/residential-cottages-mweiga/1.jpeg",
+    "galleryImages": [{
+        "imgUrl": "assets/images/projects/residential-cottages-mweiga/1.jpeg"
+      },
+      {
+        "imgUrl": "assets/images/projects/residential-cottages-mweiga/2.jpeg"
+      },
+      {
+        "imgUrl": "assets/images/projects/residential-cottages-mweiga/3.jpeg"
+      },
+      {
+        "imgUrl": "assets/images/projects/residential-cottages-mweiga/4.jpeg"
+      }
+    ],
+    "title": "Residential Cottages Mweiga",
+    "year": "",
+    "status": "",
+    "description": "",
+    "client": "",
+    "category": "residential"
+  },
+  {
+    "thumbnailUrl": "assets/images/projects/residential-kahawa-sukari/1.jpeg",
+    "galleryImages": [{
+        "imgUrl": "assets/images/projects/residential-kahawa-sukari/1.jpeg"
+      },
+      {
+        "imgUrl": "assets/images/projects/residential-kahawa-sukari/2.jpeg"
+      },
+      {
+        "imgUrl": "assets/images/projects/residential-kahawa-sukari/3.jpeg"
+      },
+      {
+        "imgUrl": "assets/images/projects/residential-kahawa-sukari/4.jpeg"
+      },
+      {
+        "imgUrl": "assets/images/projects/residential-kahawa-sukari/5.jpeg"
+      },
+      {
+        "imgUrl": "assets/images/projects/residential-kahawa-sukari/6.jpeg"
+      }
+    ],
+    "title": "Residential Kahawa Sukari",
+    "year": "",
+    "status": "",
+    "description": "",
+    "client": "",
+    "category": "residential"
+  },
+  {
+    "thumbnailUrl": "assets/images/projects/residential-limuru/1.jpeg",
+    "galleryImages": [{
+        "imgUrl": "assets/images/projects/residential-limuru/1.jpeg"
+      },
+      {
+        "imgUrl": "assets/images/projects/residential-limuru/2.jpeg"
+      },
+      {
+        "imgUrl": "assets/images/projects/residential-limuru/3.jpeg"
+      },
+      {
+        "imgUrl": "assets/images/projects/residential-limuru/4.jpeg"
+      },
+      {
+        "imgUrl": "assets/images/projects/residential-limuru/5.jpeg"
+      },
+      {
+        "imgUrl": "assets/images/projects/residential-limuru/6.jpeg"
+      }
+    ],
+    "title": "Residential Limuru",
+    "year": "",
+    "status": "",
+    "description": "",
+    "client": "",
+    "category": "residential"
+  },
+  {
+    "thumbnailUrl": "assets/images/projects/residential-ngong/1.jpeg",
+    "galleryImages": [{
+        "imgUrl": "assets/images/projects/residential-ngong/1.jpeg"
+      },
+      {
+        "imgUrl": "assets/images/projects/residential-ngong/2.jpeg"
+      },
+      {
+        "imgUrl": "assets/images/projects/residential-ngong/3.jpeg"
+      }
+    ],
+    "title": "Residential Ngong",
+    "year": "",
+    "status": "",
+    "description": "",
+    "client": "",
+    "category": "residential"
+  },
+  {
+    "thumbnailUrl": "assets/images/projects/residential-villa-ruiru/1.jpeg",
+    "galleryImages": [{
+        "imgUrl": "assets/images/projects/residential-villa-ruiru/1.jpeg"
+      },
+      {
+        "imgUrl": "assets/images/projects/residential-villa-ruiru/2.jpeg"
+      },
+      {
+        "imgUrl": "assets/images/projects/residential-villa-ruiru/3.jpeg"
+      },
+      {
+        "imgUrl": "assets/images/projects/residential-villa-ruiru/4.jpeg"
+      },
+      {
+        "imgUrl": "assets/images/projects/residential-villa-ruiru/5.jpeg"
+      },
+      {
+        "imgUrl": "assets/images/projects/residential-villa-ruiru/6.jpeg"
+      }
+    ],
+    "title": "Residential Villa Ruiru",
+    "year": "",
+    "status": "",
+    "description": "",
+    "client": "",
+    "category": "residential"
   }
 ]

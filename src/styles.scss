@@ -97,6 +97,7 @@ img::selection {
     border-radius: 8px;
     padding: 20px 10px;
     margin-bottom: 20px;
+    text-align: center;
 
     h5 {
       color: #942F03;
@@ -110,6 +111,18 @@ img::selection {
       font-size: 0.8rem;
     }
   }
+}
+
+.whatsapp-icon{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #5EAA84;
+  color: #fff!important;
+  font-size: 2.4rem;
+  border-radius: 50%;
+  padding: 1px 13px;
+  text-align: center;
 }
 @media (max-width: 3000px) {}
 @media (max-width: 2000px) {}

@@ -40,7 +40,7 @@
           </button>
         </div>
         <div class="col-md-4 text-center order-ms-2">
-          <button class="btn btn-all" [routerLink]="'/projects'">View all projects</button>
+          <button class="btn btn-all" [routerLink]="'/projects/all'">View all projects</button>
         </div>
         <div class="col-6 col-md-4 text-end order-ms-1">
           <button class="btn btn-next" [disabled]="currentProjectIndex === projects.length - 1" (click)="getSelectedProject(currentProjectIndex + 1)">Next <span class="hide-sm">project</span> <span class="ms-1"><i class="fa-solid fa-arrow-right"></i></span></button>

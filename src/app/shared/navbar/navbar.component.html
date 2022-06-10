@@ -17,7 +17,7 @@
           <a class="nav-link" [routerLink]="'/'" routerLinkActive="active-link" [routerLinkActiveOptions]="{ exact: true }" [ngClass]="{'active-link':router.url.includes('home')}">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" [routerLink]="'/projects'" [ngClass]="{'active-link':router.url.includes('project')}">Projects</a>
+          <a class="nav-link" [routerLink]="['/projects','all']" [ngClass]="{'active-link':router.url.includes('project')}">Projects</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" [routerLink]="'/about'" [ngClass]="{'active-link':router.url.includes('about')}">About</a>
@@ -35,7 +35,7 @@
         <a class="nav-link" [routerLink]="'/'" routerLinkActive="active-link" [routerLinkActiveOptions]="{ exact: true }" [ngClass]="{'active-link':router.url.includes('home')}">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" [routerLink]="'/projects'" [ngClass]="{'active-link':router.url.includes('project')}">Projects</a>
+        <a class="nav-link" [routerLink]="['/projects','all']" [ngClass]="{'active-link':router.url.includes('project')}">Projects</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" [routerLink]="'/about'" [ngClass]="{'active-link':router.url.includes('about')}">About</a>

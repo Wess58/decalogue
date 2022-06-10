@@ -24,11 +24,11 @@ const routes: Routes = [
     component: ContactComponent
   },
   {
-    path: 'projects',
+    path: 'projects/:category',
     component: ProjectsComponent
   },
   {
-    path: 'project/:index/:name',
+    path: 'project/:category/:index/:name',
     component: ProjectDetailComponent
   }
 ];

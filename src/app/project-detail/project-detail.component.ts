@@ -32,10 +32,13 @@ export class ProjectDetailComponent implements OnInit {
   ngOnInit(): void {
     window.scroll(0, 0);
 
+    const category = this.activatedRoute.snapshot.params['category'];
+    this.projects = category === 'all' ? projects : projects.filter(project => {
+      return project.category === category;
+    });
+
     this.currentProjectIndex = +this.activatedRoute.snapshot.params['index'];
     this.project = this.projects[this.currentProjectIndex];
-
-    window.scroll(0, 0);
 
   }
 
