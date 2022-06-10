@@ -3,7 +3,8 @@
 @import './assets/css/font-montserrat.css';
 @import './assets/css/font-roboto.css';
 @import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css'; // BROWN - #942F03
-//
+// ng build --prod --base-href https://wess58.github.io/decalogue/ --output-path docs
+
 
 body {
   scroll-behavior: smooth;
