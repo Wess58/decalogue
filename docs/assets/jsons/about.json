@@ -5,17 +5,17 @@
   "coreValues":[
     {
       "title":"Competency",
-      "description":"Lorem Ipsum is simply dummy text",
+      "description":"Combining knowledge and skills to deliver successful and efficient implementations",
       "imgUrl":"assets/images/competency.svg"
     },
     {
       "title":"Sensitivity",
-      "description":"Lorem Ipsum is simply dummy text",
+      "description":"Always striving to create sustainable eco-friendly environments",
       "imgUrl":"assets/images/sensitivity.svg"
     },
     {
       "title":"Intergrity",
-      "description":"Lorem Ipsum is simply dummy text",
+      "description":"Upholding honesty, trust and uncompromising adherence at our core",
       "imgUrl":"assets/images/intergrity.svg"
     }
   ]
