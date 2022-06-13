@@ -99,6 +99,8 @@ img::selection {
     padding: 20px 10px;
     margin-bottom: 20px;
     text-align: center;
+    min-height: 160px;
+
 
     h5 {
       color: #942F03;
@@ -110,6 +112,7 @@ img::selection {
     p {
       color: #5f6063;
       font-size: 0.8rem;
+      margin: auto 0;
     }
   }
 }
