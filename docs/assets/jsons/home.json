@@ -1,60 +1,60 @@
 {
   "stats": [{
-      "number": "130",
+      "number": "100",
       "description": "Projects completed"
     },
     {
-      "number": "20",
+      "number": "40",
       "description": "Ongoing projects"
     },
     {
-      "number": "300",
+      "number": "250",
       "description": "Implementation-ready designs"
     }
   ],
   "services": [{
       "title": "Architectural design",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+      "description": "We push the architectural discipline of technology and aesthetic to create beautiful living spaces"
     },
     {
       "title": "Interior design",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+      "description": "We turn ordinary spaces into balanced rythmic and more aesthetically pleasing environments"
     },
     {
       "title": "Masterplanning development",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+      "description":"Intergrity drives us to give unparalleled overarching planning in a project development"
     },
     {
       "title": "Urban planning",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+      "description": "By combining aspects of physical form, economic and social functions, we create efficient and inviting environments"
     },
     {
       "title": "Construction management",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+      "description": "We offer effective management that positively impact a project's schedules, costs and design quality"
     },
     {
       "title": "Site supervision",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+      "description": "We provide proper management and oversight in accordance with health and safety guidelines."
     },
     {
       "title": "Contract administration",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+      "description":"With decorous planning, negotiation and execution structures we always assure positive business outcomes"
     },
     {
       "title": "Quality control",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+      "description": "By reviewing the quality of all factors involved in development we create environments that can be maintained and improved"
     },
     {
       "title": "Construction programming",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+      "description": "We guarantee continual updates to account for factors that affect set plans and progress lifecycles"
     },
     {
       "title": "As-built drawings",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+      "description": "We provide the assets involved for detailed visualisation of improvements made during the construction process"
     },
     {
       "title": "Feasibility study",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+      "description": "We assess the practicality of a project to objectively and rationally uncover it's strengths and weaknesses"
     }
   ]
 }
