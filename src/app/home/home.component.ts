@@ -11,7 +11,7 @@ import projects from "../../assets/jsons/projects.json";
   styleUrls: ['./home.component.scss'],
   animations: [
     trigger('fadeIn', [
-      transition(':enter', [
+      transition('void => *', [
         // :enter is alias to 'void => *'
         style({ opacity: 0.5 }),
         animate(1500, style({ opacity: 1 })),
@@ -23,13 +23,31 @@ export class HomeComponent implements OnInit {
   stats = home.stats;
   services = home.services;
   projects = projects;
+  currentBackground: any;
+  currentImageIndex = 1;
+  activateFade = false;
 
   constructor() { }
 
   ngOnInit(): void {
-    window.scroll(0,0);
+    window.scroll(0, 0);
 
+    this.activateFade = true;
 
+    this.currentBackground = home.carouselImages[0];
+    window.setInterval(this.setBackground.bind(this), 10000);
+
+  }
+
+  setBackground(): any {
+
+    this.currentImageIndex++;
+    this.currentImageIndex = this.currentImageIndex % home.carouselImages ?.length;
+
+    this.currentBackground = {};
+    setTimeout(() => {
+      this.currentBackground = home.carouselImages[this.currentImageIndex];
+    }, 200);
 
   }
 
