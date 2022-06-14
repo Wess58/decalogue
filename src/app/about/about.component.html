@@ -3,7 +3,7 @@
   <div class="landing-section">
     <div class="container">
       <div class="row">
-        <div class="col-md-7">
+        <div class="col-md-12 col-lg-7">
           <h2>About Decalogue</h2>
           <div class="border-btm"></div>
 
@@ -24,7 +24,7 @@
   <div class="statements-section">
     <div class="container">
       <div class="row mb-ms-3">
-        <div class="col-md-6">
+        <div class="col-md-7 col-lg-6">
           <h3 class="section-title">Mission</h3>
           <div class="border-btm"></div>
 
@@ -33,7 +33,7 @@
       </div>
 
       <div class="row justify-content-end">
-        <div class="col-md-5">
+        <div class="col-md-6 col-lg-5">
           <h3 class="section-title">Vision</h3>
           <div class="border-btm"></div>
 
@@ -51,7 +51,7 @@
       <div class="border-btm"></div>
 
       <div class="row">
-        <div class="col-md-4" *ngFor="let value of about.coreValues">
+        <div class="col-md-6 col-lg-4" *ngFor="let value of about.coreValues">
           <div class="card">
             <div class="image-holder">
               <img [src]="value.imgUrl" [alt]="value.title">
@@ -76,7 +76,7 @@
 
 
       <div class="row">
-        <div class="col-6 col-md-3" *ngFor="let service of services;">
+        <div class="col-6 col-md-4 col-lg-3" *ngFor="let service of services;">
           <div class="card">
             <h5>{{service.title}}</h5>
             <p>{{service.description}}</p>

@@ -16,7 +16,7 @@
 
   .landing-section {
     // background-color: #e1e1e1;
-    // background-image: linear-gradient(90deg, #942F0399 52%, transparent 52%), url("../../assets/images/bg-3.jpg");
+    // background-image: linear-gradient(90deg, #942F0399 52%, transparent 52%);
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -40,8 +40,9 @@
       }
 
       .btn-cta {
-        background-color: #942F03;
-        color: #fff;
+        background-color: #fff;
+        color: #942F03;
+        border: 3px solid #fff;
         font-size: 0.9rem;
         font-weight: 600;
         letter-spacing: 1px;
@@ -186,7 +187,7 @@
 @media (max-width: 1290px) {}
 @media (max-width: 770px) {
   .landing-section {
-    background-image: linear-gradient(90deg, #942F0399 100%, transparent), url("../../assets/images/bg-3.jpg")!important;
+    // background-image: linear-gradient(90deg, #942F0399 100%, transparent);
   }
 
   .stats-section {

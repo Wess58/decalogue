@@ -26,11 +26,16 @@ export class HomeComponent implements OnInit {
   currentBackground: any;
   currentImageIndex = 1;
   activateFade = false;
+  lagerScreens = false;
 
   constructor() { }
 
   ngOnInit(): void {
     window.scroll(0, 0);
+
+    if (window.innerWidth > 800) {
+      this.lagerScreens = true;
+    }
 
     this.activateFade = true;
 

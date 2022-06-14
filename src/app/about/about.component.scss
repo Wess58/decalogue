@@ -127,5 +127,14 @@
 @media (max-width: 1390px) {}
 @media (max-width: 1290px) {}
 @media (max-width: 770px) {
+  .illustration{
+    display: none;
+  }
+}
 
+@media (max-width: 600px) {
+  .illustration{
+    display: block;
+    margin: auto;
+  }
 }

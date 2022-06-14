@@ -1,9 +1,9 @@
 <div class="container-fluid home">
 
   <!-- LANDING SECTION -->
-  <main class="landing-section" [ngStyle]="{'background-image':'linear-gradient(90deg, #942F0399 52%, transparent 52%), url(' + currentBackground?.imgUrl + ')'}" [@fadeIn]="currentBackground.imgUrl.length">
+  <main class="landing-section" [ngStyle]="{'background-image':  lagerScreens ? 'linear-gradient(90deg, #942F0399 52%, transparent 52%), url(' + currentBackground?.imgUrl + ')' : 'linear-gradient(90deg, #942F0399 100%, transparent), url(' + currentBackground?.imgUrl + ')'}" [@fadeIn]="currentBackground.imgUrl.length">
     <div class="container">
-      <div class="col-md-6">
+      <div class="col-md-12 col-lg-6">
         <h1>Delivering <span>contemporary</span> architecture, <br> focused on <span>design excellence</span></h1>
         <button class="btn btn-cta" [routerLink]="'/contact-us'">Get in touch</button>
       </div>
@@ -35,7 +35,7 @@
 
 
       <div class="row">
-        <div class="col-6 col-md-3" *ngFor="let service of services;">
+        <div class="col-6 col-md-4 col-lg-3" *ngFor="let service of services;">
           <div class="card">
             <h5>{{service.title}}</h5>
             <p>{{service.description}}</p>
@@ -54,7 +54,7 @@
       <div class="border-btm"></div>
 
       <div class="row">
-        <div class="col-6 col-md-3" *ngFor="let project of projects.slice(0,8);index as i">
+        <div class="col-6 col-md-4 col-lg-3" *ngFor="let project of projects.slice(0,8);index as i">
           <div class="card" [routerLink]="['/project','all', i,project.title.toLowerCase().split(' ').join('-')]">
             <div class="overlay"></div>
             <img [src]="project.thumbnailUrl" alt="project" loading="lazy">
