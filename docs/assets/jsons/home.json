@@ -1,4 +1,20 @@
 {
+  "carouselImages": [{
+      "imgUrl": "assets/images/projects/fair-acres-karen/1.jpeg"
+    },
+    {
+      "imgUrl": "assets/images/projects/isinkin-resort-kajiado/1.jpeg"
+    },
+    {
+      "imgUrl": "assets/images/projects/godowns-fresh-farm/1.jpeg"
+    },
+    {
+      "imgUrl": "assets/images/projects/kyuna-estate/1.jpeg"
+    },
+    {
+      "imgUrl": "assets/images/projects/godowns-fresh-farm/6.jpeg"
+    }
+  ],
   "stats": [{
       "number": "100",
       "description": "Projects completed"
@@ -22,7 +38,7 @@
     },
     {
       "title": "Masterplanning development",
-      "description":"Intergrity drives us to give unparalleled overarching planning in a project development"
+      "description": "Intergrity drives us to give unparalleled overarching planning in a project development"
     },
     {
       "title": "Urban planning",
@@ -38,7 +54,7 @@
     },
     {
       "title": "Contract administration",
-      "description":"With decorous planning, negotiation and execution structures we always assure positive business outcomes"
+      "description": "With decorous planning, negotiation and execution structures we always assure positive business outcomes"
     },
     {
       "title": "Quality control",
