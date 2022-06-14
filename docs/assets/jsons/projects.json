@@ -255,7 +255,7 @@
     "title": "Ngecha Girls High School",
     "year": "",
     "status": "",
-    "description": "",
+    "description": "4-Bedroom house consisting with Ground floor with lounge, dining, kitchen with yard, pantry, laundry, master bedroom ensuite and 0ne bedroom ensuite, and First floor with 2-bedroom ensuite + study room.",
     "client": "",
     "category": "institution"
   },
@@ -577,8 +577,30 @@
     "title": "Residential Villa Ruiru",
     "year": "",
     "status": "",
-    "description": "",
+    "description": "4-Bedroom villa comprising of Ground floor with Entrance porch, Cloakroom, Lounge, Dining, Kitchen with Pantry and Laundry, First floor with two-bedroom ensuites + study room and second floor with master ensuite and terrace.",
     "client": "",
     "category": "residential"
+  },
+  {
+    "thumbnailUrl": "assets/images/projects/apartments-kahawa-wendani/1.jpeg",
+    "galleryImages": [{
+        "imgUrl": "assets/images/projects/apartments-kahawa-wendani/1.jpeg"
+      },
+      {
+        "imgUrl": "assets/images/projects/apartments-kahawa-wendani/2.jpeg"
+      },
+      {
+        "imgUrl": "assets/images/projects/apartments-kahawa-wendani/3.jpeg"
+      },
+      {
+        "imgUrl": "assets/images/projects/apartments-kahawa-wendani/4.jpeg"
+      }
+    ],
+    "title": "Apartments Kahawa Wendani",
+    "year": "",
+    "status": "",
+    "description": "An apartment comprising of ground floor, Typical floors 1st to 5th floor with one-bedroom units, Terrace floor level and 18 Parking Slots.",
+    "client": "",
+    "category": "commercial"
   }
 ]
