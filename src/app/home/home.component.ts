@@ -52,7 +52,7 @@ export class HomeComponent implements OnInit {
     this.currentBackground = null;
     setTimeout(() => {
       this.currentBackground = home.carouselImages[this.currentImageIndex];
-    }, 200);
+    }, 10);
 
   }
 
