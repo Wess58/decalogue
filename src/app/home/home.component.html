@@ -1,14 +1,21 @@
 <div class="container-fluid home">
 
   <!-- LANDING SECTION -->
-  <main class="landing-section" [ngStyle]="{'background-image':  lagerScreens ? 'linear-gradient(90deg, #942F0399 52%, transparent 52%), url(' + currentBackground?.imgUrl + ')' : 'linear-gradient(90deg, #942F0399 100%, transparent), url(' + currentBackground?.imgUrl + ')'}" [@fadeIn]="currentBackground.imgUrl.length">
-    <div class="container">
-      <div class="col-md-12 col-lg-6">
-        <h1>Delivering <span>contemporary</span> architecture, <br> focused on <span>design excellence</span></h1>
-        <button class="btn btn-cta" [routerLink]="'/contact-us'">Get in touch</button>
+  <div>
+
+    <!-- [ngStyle]="{'background-image':  lagerScreens ? 'linear-gradient(90deg, #942F0399 52%, transparent 52%), url(' + currentBackground?.imgUrl + ')' : 'linear-gradient(90deg, #942F0399 100%, transparent), url(' + currentBackground?.imgUrl + ')'}" -->
+    <main class="landing-section">
+      <div class="bg-img">
+        <img [src]="currentBackground?.imgUrl" alt="bg-img" *ngIf="currentBackground" [@fadeIn]>
       </div>
-    </div>
-  </main>
+      <div class="container">
+        <div class="col-md-12 col-lg-6">
+          <h1>Delivering <span>contemporary</span> architecture, <br> focused on <span>design excellence</span></h1>
+          <button class="btn btn-cta" [routerLink]="'/contact-us'">Get in touch</button>
+        </div>
+      </div>
+    </main>
+  </div>
 
 
   <!-- STATS SECTION -->

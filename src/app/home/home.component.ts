@@ -13,8 +13,8 @@ import projects from "../../assets/jsons/projects.json";
     trigger('fadeIn', [
       transition('void => *', [
         // :enter is alias to 'void => *'
-        style({ opacity: 0.5 }),
-        animate(1500, style({ opacity: 1 })),
+        style({ opacity: 0 }),
+        animate(600, style({ opacity: 1 })),
       ]),
     ]),
   ],
@@ -49,7 +49,7 @@ export class HomeComponent implements OnInit {
     this.currentImageIndex++;
     this.currentImageIndex = this.currentImageIndex % home.carouselImages ?.length;
 
-    this.currentBackground = {};
+    this.currentBackground = null;
     setTimeout(() => {
       this.currentBackground = home.carouselImages[this.currentImageIndex];
     }, 200);
