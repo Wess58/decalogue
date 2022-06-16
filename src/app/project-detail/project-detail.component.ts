@@ -23,6 +23,7 @@ export class ProjectDetailComponent implements OnInit {
   project: any = {};
   currentImageIndex = 0;
   currentProjectIndex = 0;
+  currentProjectCategory = '';
 
   constructor(
     private activatedRoute: ActivatedRoute,
@@ -30,16 +31,19 @@ export class ProjectDetailComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    window.scroll(0, 0);
 
-    const category = this.activatedRoute.snapshot.params['category'];
-    this.projects = category === 'all' ? projects : projects.filter(project => {
-      return project.category === category;
+    this.currentProjectCategory = this.activatedRoute.snapshot.params['category'];
+    this.projects = this.currentProjectCategory === 'all' ? projects : projects.filter(project => {
+      return project.category === this.currentProjectCategory;
     });
 
     this.currentProjectIndex = +this.activatedRoute.snapshot.params['index'];
     this.project = this.projects[this.currentProjectIndex];
 
+    setTimeout(() => {
+      window.scroll(0, 0);
+
+    }, 1000);
   }
 
 
@@ -49,14 +53,14 @@ export class ProjectDetailComponent implements OnInit {
 
     if (this.currentProjectIndex >= 0 || this.currentProjectIndex === this.projects.length - 1) {
 
-      this.project = {};
+      this.project = null;
 
       setTimeout(() => {
         this.project = this.projects[this.currentProjectIndex];
-        this.router.navigate(['/project', this.currentProjectIndex, this.project.title.toLowerCase().split(' ').join('-')]);
+        this.router.navigate(['/project', this.currentProjectCategory, this.currentProjectIndex, this.project.title.toLowerCase().split(' ').join('-')]);
 
-        window.scroll(0, 0);
       }, 100);
+
     }
   }
 

@@ -1,4 +1,4 @@
-<div class="container-fluid project-detail" [@fadeIn]>
+<div class="container-fluid project-detail" *ngIf="project" [@fadeIn]>
 
   <div class="landing-section" [ngStyle]="{'background-image':'linear-gradient(135deg, #0009 52%, transparent), url(' + project.thumbnailUrl + ')'}">
     <div class="container">
@@ -56,7 +56,7 @@
 <div class="modal fade" id="photoModal" tabindex="-1" aria-labelledby="photoModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-xl modal-dialog-centered">
     <div class="modal-content">
-      <div class="modal-body">
+      <div class="modal-body" *ngIf="project">
         <div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel" data-touch="true">
           <div class="carousel-inner">
             <div class="carousel-item" [ngClass]="{'active':currentImageIndex === i}" *ngFor="let image of project.galleryImages;index as i; first as isFirst" data-interval="4000">
