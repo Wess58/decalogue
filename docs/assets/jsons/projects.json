@@ -630,5 +630,41 @@
     "description": "",
     "client": "",
     "category": "commercial"
+  },
+  {
+    "thumbnailUrl": "assets/images/projects/mbagathi-rd-dev/1.jpeg",
+    "galleryImages": [{
+        "imgUrl": "assets/images/projects/mbagathi-rd-dev/1.jpeg"
+      },
+      {
+        "imgUrl": "assets/images/projects/mbagathi-rd-dev/2.jpeg"
+      },
+      {
+        "imgUrl": "assets/images/projects/mbagathi-rd-dev/3.jpeg"
+      }
+    ],
+    "title": "Mbagathi Road Development",
+    "year": "",
+    "status": "",
+    "description": "",
+    "client": "",
+    "category": "commercial"
+  },
+  {
+    "thumbnailUrl": "assets/images/projects/riverside-mud/1.jpeg",
+    "galleryImages": [{
+        "imgUrl": "assets/images/projects/riverside-mud/1.jpeg"
+      },
+      {
+        "imgUrl": "assets/images/projects/riverside-mud/2.jpeg"
+      }
+    ],
+    "title": "Riverside MUD",
+    "year": "",
+    "status": "",
+    "description": "",
+    "client": "",
+    "category": "commercial"
   }
+
 ]
