@@ -14,7 +14,7 @@
 
     <div class="row">
       <div class="col-6 col-md-4 col-lg-3" *ngFor="let project of projects;index as i" [@fadeIn]="projects.length">
-        <div class="card project-card" [routerLink]="['/project',currentFilter,i,project.title.toLowerCase().split(' ').join('-')]">
+        <div class="card project-card" [routerLink]="['/project',currentFilter,i,project.title | urlTitle]">
           <div class="overlay"></div>
           <img [src]="project.thumbnailUrl" onError="this.src='assets/images/default-project.png'" alt="project">
           <span>{{project.title}}</span>

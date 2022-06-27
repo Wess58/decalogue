@@ -12,6 +12,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ProjectDetailComponent } from './project-detail/project-detail.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { UrlTitlePipe } from './pipes/url-title.pipe';
 // import { LazyloadDirective } from './directives/lazyload.directive';
 
 @NgModule({
@@ -24,6 +25,7 @@ import { FooterComponent } from './shared/footer/footer.component';
     ProjectDetailComponent,
     NavbarComponent,
     FooterComponent,
+    UrlTitlePipe,
     // LazyloadDirective
   ],
   imports: [

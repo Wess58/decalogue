@@ -57,7 +57,7 @@ export class ProjectDetailComponent implements OnInit {
 
       setTimeout(() => {
         this.project = this.projects[this.currentProjectIndex];
-        this.router.navigate(['/project', this.currentProjectCategory, this.currentProjectIndex, this.project.title.toLowerCase().split(' ').join('-')]);
+        this.router.navigate(['/project', this.currentProjectCategory, this.currentProjectIndex, this.project.title.trim().toLowerCase().replace(/,/g,'').split(' ').join('-')]);
 
       }, 100);
 
