@@ -602,5 +602,33 @@
     "description": "An apartment comprising of ground floor, Typical floors 1st to 8th floor with one-bedroom units, Terrace floor level and 18 Parking Slots.",
     "client": "",
     "category": "apartments"
+  },
+  {
+    "thumbnailUrl": "assets/images/projects/kawangware-mud/1.jpeg",
+    "galleryImages": [{
+        "imgUrl": "assets/images/projects/kawangware-mud/1.jpeg"
+      },
+      {
+        "imgUrl": "assets/images/projects/kawangware-mud/2.jpeg"
+      },
+      {
+        "imgUrl": "assets/images/projects/kawangware-mud/3.jpeg"
+      },
+      {
+        "imgUrl": "assets/images/projects/kawangware-mud/4.jpeg"
+      },
+      {
+        "imgUrl": "assets/images/projects/kawangware-mud/5.jpeg"
+      },
+      {
+        "imgUrl": "assets/images/projects/kawangware-mud/6.jpeg"
+      }
+    ],
+    "title": "Kawangware MUD",
+    "year": "",
+    "status": "",
+    "description": "",
+    "client": "",
+    "category": "commercial"
   }
 ]
