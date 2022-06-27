@@ -665,6 +665,30 @@
     "description": "The Proposed development includes: 2 sub-basements and upper ground floor parking, Guard house, Reception, Genset, changing rooms, Typical floors 1st to 10th floor comprising of 1-bedroom and 2-bedroom units, 11th floor comprising of Gym, Coffee bar and office and 12th floor with infinity pool and bar area",
     "client": "",
     "category": "commercial"
+  },
+  {
+    "thumbnailUrl": "assets/images/projects/kerugoya-apartments/1.jpeg",
+    "galleryImages": [{
+        "imgUrl": "assets/images/projects/kerugoya-apartments/1.jpeg"
+      },
+      {
+        "imgUrl": "assets/images/projects/kerugoya-apartments/2.jpeg"
+      },
+      {
+        "imgUrl": "assets/images/projects/kerugoya-apartments/3.jpeg"
+      },
+      {
+        "imgUrl": "assets/images/projects/kerugoya-apartments/4.jpeg"
+      },
+      {
+        "imgUrl": "assets/images/projects/kerugoya-apartments/5.jpeg"
+      }
+    ],
+    "title": "Residential Apartments, Kerugoya",
+    "year": "",
+    "status": "",
+    "description": "An apartment comprising of ground floor, Typical floors 1st to 8th floor with one-bedroom units, Terrace floor level and 18 Parking Slots.",
+    "client": "",
+    "category": "apartments"
   }
-
 ]
