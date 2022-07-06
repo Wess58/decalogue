@@ -67,11 +67,36 @@
     </div>
   </div>
 
+  <!-- TEAM SECTION -->
+  <div class="team-section">
+    <div class="container">
+
+      <h3 class="section-title">Our Team</h3>
+      <div class="border-btm"></div>
+
+      <div class="row">
+        <div class="col-md-6" *ngFor="let member of about.team;index as i">
+          <div class="card">
+            <div class="image-holder">
+              <img [src]="member.profileUrl" [alt]="member.name">
+            </div>
+            <div class="member-details">
+              <h4 class="member-name">{{member.name}}</h4>
+              <span class="member-role">{{member.role}}</span>
+              <p class="member-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
   <!-- SERVICES SECTION -->
   <div class="services-section">
     <div class="container">
 
-      <h3 class="section-title">Services</h3>
+      <h2 class="section-title">Our Services</h2>
       <div class="border-btm"></div>
 
 

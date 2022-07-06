@@ -18,26 +18,12 @@
   </div>
 
 
-  <!-- STATS SECTION -->
-  <div class="stats-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-6 col-md-4" *ngFor="let stat of stats">
-          <div class="card">
-            <span class="d-block number">{{stat.number}} <sup><i class="fa-solid fa-plus"></i></sup></span>
-            <span class="d-block description">{{stat.description}}</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
 
   <!-- SERVICES SECTION -->
   <div class="services-section">
     <div class="container">
 
-      <h2 class="section-title">Services</h2>
+      <h2 class="section-title">Our Services</h2>
       <div class="border-btm"></div>
 
 
@@ -72,6 +58,20 @@
 
     </div>
 
+  </div>
+
+  <!-- STATS SECTION -->
+  <div class="stats-section border-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-md-4" *ngFor="let stat of stats">
+          <div class="card">
+            <span class="d-block number">{{stat.number}} <sup><i class="fa-solid fa-plus"></i></sup></span>
+            <span class="d-block description">{{stat.description}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <div class="get-in-touch-section">

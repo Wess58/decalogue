@@ -105,6 +105,63 @@
     }
   }
 
+  .team-section{
+    border-top: 1px solid #e1e1e1;
+    padding: 8vh 0;
+
+    .section-title {
+      color: #942F03;
+    }
+
+    .border-btm {
+      background-color: #942F0399;
+    }
+
+    .card{
+      margin-bottom: 20px;
+      border-radius: 8px;
+      border: 1px solid #f1f1f1;
+      box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.05);
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      min-height: 170px;
+
+      .image-holder {
+        margin-right: 30px;
+        border-right: 1px solid #f1f1f1;
+
+        img {
+          min-width: 200px;
+          height: 200px;
+          object-fit: contain;
+
+        }
+      }
+
+      .member-name {
+        color: #942F03;
+        font-weight: 600;
+        font-size: 1.2rem;
+        margin-bottom: 5px;
+      }
+
+      .member-role{
+        font-size: 0.9rem;
+        color: #80868b;
+        margin-bottom: 10px;
+        display: block;
+      }
+
+      .member-description {
+        color: #5f6063;
+        font-size: 0.9rem;
+        margin: 0;
+      }
+    }
+
+  }
+
   .services-section {
     padding: 5vh 0;
     background-color: #f9f9f9;
@@ -129,6 +186,20 @@
 @media (max-width: 770px) {
   .illustration{
     display: none;
+  }
+
+  .team-section{
+    .image-holder {
+      margin-right: 30px;
+      border-right: 1px solid #f1f1f1;
+
+      img {
+        min-width: 100px!important;
+        height: 100px!important;
+        object-fit: contain;
+
+      }
+    }
   }
 }
 

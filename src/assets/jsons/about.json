@@ -2,21 +2,57 @@
   "companyStory": "<p>We are a consulting firm offering services in <strong>Architectural design</strong> and <strong>Project management</strong>. We focus on design excellence through responsible development and technological innovation. </p> <p>The firm was established in <strong>2012</strong> with the intent to provide complete and high industry-level design services or the full range of projects within the built environment, including Residential, Commercial and Institutional projects.</p>",
   "mission": "To create sustainable built environments that enhance the quality of life",
   "vision": "To expand our sphere of influence in creation of sustainable built environments globally",
-  "coreValues":[
-    {
-      "title":"Competency",
-      "description":"Combining knowledge and skills to deliver successful and efficient execution",
-      "imgUrl":"assets/images/competency.svg"
+  "coreValues": [{
+      "title": "Competency",
+      "description": "Combining knowledge and skills to deliver successful and efficient execution",
+      "imgUrl": "assets/images/competency.svg"
     },
     {
-      "title":"Sensitivity",
-      "description":"Always striving to create sustainable eco-friendly environments",
-      "imgUrl":"assets/images/sensitivity.svg"
+      "title": "Sensitivity",
+      "description": "Always striving to create sustainable eco-friendly environments",
+      "imgUrl": "assets/images/sensitivity.svg"
     },
     {
-      "title":"Intergrity",
-      "description":"Upholding honesty, trust and uncompromising adherence at our core",
-      "imgUrl":"assets/images/intergrity.svg"
+      "title": "Intergrity",
+      "description": "Upholding honesty, trust and uncompromising adherence at our core",
+      "imgUrl": "assets/images/intergrity.svg"
+    }
+  ],
+  "team": [{
+      "name": "Mbogo Kimani",
+      "profileUrl": "assets/images/team/user.png",
+      "role": "Principal Architect",
+      "description": ""
+    },
+    {
+      "name": "Ernest Gichugu",
+      "profileUrl": "assets/images/team/user.png",
+      "role": "Principal Architect",
+      "description": ""
+    },
+    {
+      "name": "Peter Kogi",
+      "profileUrl": "assets/images/team/peter-kogi.png",
+      "role": "Assistant Architect",
+      "description": ""
+    },
+    {
+      "name": "Job Githaga",
+      "profileUrl": "assets/images/team/job-githaga.png",
+      "role": "Graduate Architect",
+      "description": ""
+    },
+    {
+      "name": "Rey Reagan",
+      "profileUrl": "assets/images/team/rey-reagan.png",
+      "role": "Assistant Architect",
+      "description": ""
+    },
+    {
+      "name": "Lucia Mwaura",
+      "profileUrl": "assets/images/team/lucia-mwaura.png",
+      "role": "Office Administrator",
+      "description": ""
     }
   ]
 }

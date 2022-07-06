@@ -11,7 +11,7 @@ import { style, animate, transition, trigger } from '@angular/animations';
       transition(':enter', [
         // :enter is alias to 'void => *'
         style({ opacity: 0 }),
-        animate(1000, style({ opacity: 1 })),
+        animate(700, style({ opacity: 1 })),
       ]),
     ]),
   ],
