@@ -56,7 +56,7 @@
       border: 2px solid #f1f1f1;
       border-radius: 8px;
       overflow: hidden;
-      transition: all .2s;
+      transition: all 0.2s;
       border-radius: 4px;
       cursor: pointer;
 
@@ -125,17 +125,32 @@
   }
 }
 @media (max-width: 600px) {
-
-  .order-ms-2{
+  .order-ms-2 {
     order: 2;
   }
-  .order-ms-1{
+
+  .order-ms-1 {
     order: 1;
   }
+
   .modal-body {
     position: relative;
     flex: 1 1 auto;
-    padding: 1rem;
     padding: 0;
+  }
+
+  .carousel-ms-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 0 10px;
+
+    .btn {
+      background-color: #f1f1f1;
+      color: #5f6063;
+      font-size: 0.8rem;
+      padding: 5px 15px;
+    }
   }
 }

@@ -42,7 +42,8 @@
           <button class="btn btn-all" [routerLink]="'/projects/all'">View all projects</button>
         </div>
         <div class="col-6 col-md-4 text-end order-ms-1">
-          <button class="btn btn-next" [disabled]="currentProjectIndex === projects.length - 1" (click)="getSelectedProject(currentProjectIndex + 1)">Next <span class="hide-sm">project</span> <span class="ms-1"><i class="fa-solid fa-arrow-right"></i></span></button>
+          <button class="btn btn-next" [disabled]="currentProjectIndex === projects.length - 1" (click)="getSelectedProject(currentProjectIndex + 1)">Next <span class="hide-sm">project</span> <span class="ms-1"><i
+                class="fa-solid fa-arrow-right"></i></span></button>
         </div>
       </div>
     </div>
@@ -63,14 +64,30 @@
               <img [src]="image.imgUrl" class="d-block w-100" alt="photo">
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
-            <span class="navigation-icon"> <i class="fa-solid fa-circle-chevron-left"></i>
-            </span>
-          </button>
-          <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
-            <span class="navigation-icon"> <i class="fa-solid fa-circle-chevron-right"></i>
-            </span>
-          </button>
+
+          <div class="d-none d-md-block">
+            <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+              <span class="navigation-icon"> <i class="fa-solid fa-circle-chevron-left"></i>
+              </span>
+            </button>
+            <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+              <span class="navigation-icon"> <i class="fa-solid fa-circle-chevron-right"></i>
+              </span>
+            </button>
+          </div>
+
+          <div class="d-block d-md-none">
+            <div class="carousel-ms-buttons">
+
+              <button class="btn carousel-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+                Previous
+              </button>
+              <button class="btn carousel-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+                Next
+              </button>
+            </div>
+          </div>
+
         </div>
 
         <p class="d-none d-lg-block text-center">Hover on the image to pause auto-navigation</p>
