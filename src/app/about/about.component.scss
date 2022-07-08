@@ -125,7 +125,7 @@
       display: flex;
       flex-direction: row;
       align-items: center;
-      height: 170px;
+      height: 90%;
 
       .image-holder {
         margin-right: 30px;
@@ -155,8 +155,9 @@
 
       .member-description {
         color: #5f6063;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         margin: 0;
+        margin-right: 10px;
       }
     }
 
@@ -189,17 +190,20 @@
   }
 
   .team-section{
+    .card{
+      padding: 20px 0;
+
     .image-holder {
       margin-right: 30px;
       border-right: 1px solid #f1f1f1;
 
       img {
         min-width: 100px!important;
-        height: 150px!important;
         object-fit: contain;
 
       }
     }
+  }
   }
 }
 
