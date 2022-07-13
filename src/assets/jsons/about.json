@@ -20,39 +20,39 @@
   ],
   "team": [{
       "name": "Mbogo Kimani",
-      "profileUrl": "assets/images/team/user.png",
+      "profileUrl": "assets/images/team/mbogo-kimani.png",
       "role": "Principal Architect",
-      "description": "Over 10 years of experience through a cross-section of design projects, each with a different focus on architecture"
+      "description":"<span>Arch. Mbogo Kimani</span> (MAAK), B. ARCH (UON), is a Principal Partner at DIL. He has over 15 years of experience in Architectural Design, Contract and Construction Project Management and has developed the capacity to handle all aspects of various types of projects. He believes that integrity, a keen understanding of the client’s brief, correct advice to the client, and a skilled and cohesive project team results in successful projects."
     },
     {
       "name": "Ernest Gichugu",
-      "profileUrl": "assets/images/team/user.png",
+      "profileUrl": "assets/images/team/ernest-gichugu.png",
       "role": "Principal Architect",
-      "description": "Over 10 years’ work experience in Architectural Offices, over 6 years undergraduate architectural training"
+      "description": "<span>Arch. Ernest Gicugu</span> (MAAK), B. ARCH (UON), is a Principal Partner at DIL. He has over 15 years of experience in Architectural Design, Contract and Construction Project Management and has developed the capacity to handle all aspects of various types of projects. He believes that integrity, a keen understanding of the client’s brief, correct advice to the client, and a skilled and cohesive project team results in successful projects."
     },
     {
       "name": "Peter Kogi",
       "profileUrl": "assets/images/team/peter-kogi.png",
       "role": "Assistant Architect",
-      "description": "Over 4 years’ work experience in Architectural Offices, over 3 years Diploma Architectural Training"
+      "description": "<span>Job Githaga</span>, B. ARCH (JKUAT). He has over 10 years of experience in Architectural design. He is a creative thinker whose work spans across multiple disciplines and a variety of scale. He is driven by a desire to envision new modes of living using design as a vehicle to imagine a brighter future."
     },
     {
       "name": "Job Githaga",
       "profileUrl": "assets/images/team/job-githaga.png",
       "role": "Graduate Architect",
-      "description": "Over 8 years’ work experience in Architectural Offices and experience in CAD oriented design and drafting"
+      "description": "<span>Peter Kogi</span> is an Assistant Architect at DIL. He joined the firm in 2016. He holds a diploma in Architecture (KIBHT) and has over 5 years of experience in Architectural Design. His diligence, attitude towards work and hunger for perfection has led to commendable growth in Architectural practice."
     },
     {
       "name": "Rey Reagan",
       "profileUrl": "assets/images/team/rey-reagan.png",
       "role": "Assistant Architect",
-      "description": "Over 3 years’ work experience in Architectural Offices, over 3 years Diploma architectural training"
+      "description":"<span>Reyreagan Ongalo Odhiambo</span> joined Decalogue International Ltd on August 2017 on attachment and later rejoined on August 2018 as an Intern upon completion of Diploma in Architecture from Thika Technical Training Institute and underwent training in preparation of Scheme and detailed design drawings of projects of varying scales. These projects have awarded him an array of technical skills and a vast wealth of construction Knowledge."
     },
     {
       "name": "Lucia Mwaura",
       "profileUrl": "assets/images/team/lucia-mwaura.png",
       "role": "Office Administrator",
-      "description": "Over 4 years’ work experience in construction related industry, over 3 years training in Diploma in Building Technology"
+      "description":"<span>Lucia Mwaura</span> holds a Diploma in Building Technology (KIST). She joined the firm in 2021 as an Administrative Assistant/Office Manager. She is the Principal Office Administrator in charge of day to day running of the office. She is the link between the Technical Staff and the Client ensuring the smooth flow of information and fast delivery of documents/Mails to Clients, Consultants, Contractors, and Sub-contractors."
     }
   ]
 }

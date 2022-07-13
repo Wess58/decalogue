@@ -105,7 +105,7 @@
     }
   }
 
-  .team-section{
+  .team-section {
     border-top: 1px solid #e1e1e1;
     padding: 8vh 0;
 
@@ -117,7 +117,7 @@
       background-color: #942F0399;
     }
 
-    .card{
+    .card {
       margin-bottom: 20px;
       border-radius: 8px;
       border: 1px solid #f1f1f1;
@@ -125,7 +125,7 @@
       display: flex;
       flex-direction: row;
       align-items: center;
-      height: 90%;
+      min-height: 240px;
 
       .image-holder {
         margin-right: 30px;
@@ -135,8 +135,11 @@
           min-width: 200px;
           height: 170px;
           object-fit: contain;
-
         }
+      }
+
+      .member-details {
+        padding: 10px;
       }
 
       .member-name {
@@ -146,21 +149,24 @@
         margin-bottom: 5px;
       }
 
-      .member-role{
+      .member-role {
         font-size: 0.9rem;
         color: #80868b;
         margin-bottom: 10px;
         display: block;
       }
 
-      .member-description {
+      ::ng-deep .member-description {
         color: #5f6063;
         font-size: 0.8rem;
-        margin: 0;
-        margin-right: 10px;
+        margin: 0 10px 0 0;
+
+        span {
+          color: #942F03;
+          font-weight: 600;
+        }
       }
     }
-
   }
 
   .services-section {
@@ -176,8 +182,6 @@
     }
   }
 }
-
-
 @media (max-width: 3000px) {}
 @media (max-width: 2000px) {}
 @media (max-width: 1700px) {}
@@ -185,30 +189,32 @@
 @media (max-width: 1390px) {}
 @media (max-width: 1290px) {}
 @media (max-width: 770px) {
-  .illustration{
+  .illustration {
     display: none;
   }
 
-  .team-section{
-    .card{
+  .team-section {
+    .card {
       padding: 20px 0;
+      display: block!important;
+      height: 94%!important;
 
-    .image-holder {
-      margin-right: 30px;
-      border-right: 1px solid #f1f1f1;
+      .image-holder {
+        margin-right: 0!important;
+        border-right: none!important;
+        text-align: center;
+        margin-bottom: 20px;
 
-      img {
-        min-width: 100px!important;
-        object-fit: contain;
 
+        img {
+          object-fit: contain;
+        }
       }
     }
   }
-  }
 }
-
 @media (max-width: 600px) {
-  .illustration{
+  .illustration {
     display: block;
     margin: auto;
   }

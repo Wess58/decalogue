@@ -81,10 +81,13 @@
               <img [src]="member.profileUrl" [alt]="member.name">
             </div>
             <div class="member-details">
-              <h4 class="member-name">{{member.name}}</h4>
-              <span class="member-role">{{member.role}}</span>
-              <!-- <p class="member-description">{{member.description}} </p> -->
+              <!-- <h4 class="member-name">{{member.name}}</h4> -->
+              <!-- <span class="member-role">{{member.role}}</span> -->
+              <p class="member-description" [innerHTML]="member.description"> </p>
             </div>
+
+
+
           </div>
         </div>
       </div>
